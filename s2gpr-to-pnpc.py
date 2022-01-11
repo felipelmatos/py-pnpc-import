@@ -1,3 +1,5 @@
+# _*_ coding: utf-8 _*_
+
 import base64
 import requests
 import json
@@ -34,7 +36,7 @@ def setDados(codigoIbge, codigoUnidade, nomeUnidade):
     return resposta.status_code
 
 def abreArquivoJson(caminho):
-    arquivo = open(caminho)
+    arquivo = open(caminho, encoding = "utf-8")
     dados = json.load(arquivo)
     arquivo.close()
     return dados['items']
