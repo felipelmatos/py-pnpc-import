@@ -1,5 +1,5 @@
 # py-pnpc-import
-Script em Python que importa dados para dentro do PNPC (Programa Nacional de Proteção do Conhecimento Sensível) do governo federal (ABIN).
+Script em Python que importa dados para dentro do PNPC (Programa Nacional de Proteção do Conhecimento Sensível) do governo federal (ABIN), através de rest API.
 
 Antes de executar você precisará obter o login e senha para geração de token. Esta informação é enviada pelo PNPC.
 
@@ -7,7 +7,7 @@ OBS: Este código foi criado para executar junto com o arquivo JSON fornecido pe
 
 ------------------------------------------------------------
 
-Python script that imports data into the PNPC (National Program for the Protection of Sensitive Knowledge) of the federal government (ABIN).
+Python script that imports data into the PNPC (National Program for the Protection of Sensitive Knowledge) of the federal government (ABIN) using rest API.
 
 Before running you will need to get the login and password for token generation. This information is sent by the PNPC.
 
